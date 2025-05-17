@@ -2,12 +2,12 @@
 To develop and apply hands-on skills in wireless network security by conducting ethical attacks, analyzing network behavior, and implementing strategies to harden defenses.
 
 ### Skills Learned
-- Wireless reconnaissance and environment setup using Kali Linux
-- Packet capture and analysis (WPA2 handshake identification)
-- Password cracking with wordlists  
-- Execution of deauthentication attacks
-- Monitoring real-world wireless traffic and diagnosing connectivity/authentication issues
-- Applying legal and ethical standards in penetration testing
+- Wireless reconnaissance and environment setup using Kali Linux.
+- Packet capture and analysis (WPA2 handshake identification).
+- Password cracking with wordlists.
+- Execution of deauthentication attacks.
+- Monitoring real-world wireless traffic and diagnosing connectivity/authentication issues.
+- Applying legal and ethical standards in penetration testing.
 
 ### Tools Used
 - Kali Linux: Penetration testing tool to perform attacks on a vulnerable machine.
@@ -21,27 +21,45 @@ To develop and apply hands-on skills in wireless network security by conducting 
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/02_ChangeWirelessAdapterMonitorMode.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b></b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b></b>
+<b>Set the wireless adapter to monitor mode.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/03_RunMonitorModeFindTargetAccessPoint.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Enable monitor mode and identify the target Wi-Fi access point.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/04_CaptureWPAHandshake.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Capture the WPA handshake and save it to a file.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/05_DeauthenticateConnectedDevices.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Deauthenticate connected devices to force reauthentication.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/06_CapturedWPAHandshake.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Confirm the WPA handshake has been captured.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/07_StopCapture.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Stop the capture process.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Wireless-Penetration-Testing/blob/main/images/08_TryPass.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Try to crack the captured .cap file. We've successfully cracked the weak password.</b>
 <br/>
 
 ## Outcome
@@ -51,8 +69,8 @@ To develop and apply hands-on skills in wireless network security by conducting 
 - Prepared to assist organizations with Wi-Fi threat detection, incident response, and proactive security configurations in line with best practices.
 
 ## Acknowledgements
-This project combines ideas and methods from various sources, such as the Real World Windows Pentest by David Bombal and TCM Security and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
- - []()
+This project combines ideas and methods from various sources, such as the wireless security tutorials by David Bombal and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
+ - [David Bombal](https://www.youtube.com/playlist?list=PLhfrWIlLOoKPbqR5Ttl1HGbiDhaxiUv9l)
  - [Kali Linux](https://www.kali.org/) 
 
 ## Disclaimer
